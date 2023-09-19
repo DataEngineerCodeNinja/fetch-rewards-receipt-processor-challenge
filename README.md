@@ -8,6 +8,8 @@ Fetch Rewards - Receipt Processor Challenge
 
 **Execute:**
 
+go mod init receipt-processor-challenge 
+
 go get .
 
 go mod tidy
