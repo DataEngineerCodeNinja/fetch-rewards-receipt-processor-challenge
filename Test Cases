@@ -1,0 +1,55 @@
+
+GENERAL:
+
+Invalid Date - Test Cases:
+
+   - Date Year, Month, Day out of range
+   - Invalid non-numeric characters
+
+   - Time Minute, Hour out of range
+   - Invalid non-numeric characters
+
+         Results: Receipt not appended to Receipt slice
+
+
+   - Valid Date and Time
+
+         Results: Receipt not appended to Receipt slice
+
+
+
+Receipt Points Awarded - Test Cases:
+
+One point for every alphanumeric character in the retailer name.
+   - Retailer Name with non-alphanumeric characters
+        - Non-alphanumeric characters : No Points added
+        - Alphanumeric characters     : Points added for each
+
+50 points if the total is a round dollar amount with no cents.
+    - Totals with even dollar amounts       :  50 Points added
+    - Totals with dollar amounts with cents :  No Points added
+
+25 points if the total is a multiple of 0.25.
+    - Totals divisible by 0.25                :  Points added base on price point calculation rule
+    - Totals divisible by 0.25 with remainder :  No Points added
+
+5 points for every two items on the receipt.
+   - 5 points added for every pair of items in receipt
+   - single items with no pairs awarded no points
+
+Trimmed length of the item description is a multiple of 3
+   - Items with trimed lengths divisible by 3 with no remainder:      Points added 
+   - Items with trimed lengths not divisible by 3 with no remainder:  No Points added 
+
+6 points if the day in the purchase date is odd.
+   - Odd Days:     Points added 
+   - Even Days:    No Points added 
+
+10 points if the time of purchase is after 2:00pm and before 4:00pm.
+   - time of purchase 2:00pm        : No Points added
+   - time of purchase 4:00pm        : No Points added
+   - time of purchase before 2:00pm : No Points added
+   - time of purchase after 4:00pm  : No Points added
+   - time of purchase is after 2:00pm and before 4:00pm : Points added
+
+
