@@ -1,7 +1,7 @@
 
-GENERAL:
 
 Invalid Date - Test Cases:
+--------------------------
 
    - Date Year, Month, Day out of range
    - Invalid non-numeric characters
@@ -19,6 +19,7 @@ Invalid Date - Test Cases:
 
 
 Receipt Points Awarded - Test Cases:
+------------------------------------
 
 One point for every alphanumeric character in the retailer name.
    - Retailer Name with non-alphanumeric characters
