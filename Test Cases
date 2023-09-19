@@ -31,7 +31,7 @@ One point for every alphanumeric character in the retailer name.
     - Totals with dollar amounts with cents :  No Points added
 
 25 points if the total is a multiple of 0.25.
-    - Totals divisible by 0.25                :  Points added base on price point calculation rule
+    - Totals divisible by 0.25                :  25 Points
     - Totals divisible by 0.25 with remainder :  No Points added
 
 5 points for every two items on the receipt.
@@ -39,7 +39,7 @@ One point for every alphanumeric character in the retailer name.
    - single items with no pairs awarded no points
 
 Trimmed length of the item description is a multiple of 3
-   - Items with trimed lengths divisible by 3 with no remainder:      Points added 
+   - Items with trimed lengths divisible by 3 with no remainder:      Points added
    - Items with trimed lengths not divisible by 3 with no remainder:  No Points added 
 
 6 points if the day in the purchase date is odd.
