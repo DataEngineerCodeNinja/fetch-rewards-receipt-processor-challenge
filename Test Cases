@@ -1,5 +1,4 @@
 
-
 Invalid Date - Test Cases:
 --------------------------
 
@@ -52,5 +51,4 @@ Trimmed length of the item description is a multiple of 3
    - time of purchase before 2:00pm : No Points added
    - time of purchase after 4:00pm  : No Points added
    - time of purchase is after 2:00pm and before 4:00pm : Points added
-
 
