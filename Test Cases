@@ -4,17 +4,14 @@ Date and Time - Test Cases:
 
    - Date Year, Month, Day out of range
    - Invalid non-numeric characters
+         Results: Receipt not appended to Receipt slice
 
    - Time Minute, Hour out of range
    - Invalid non-numeric characters
-
          Results: Receipt not appended to Receipt slice
-
 
    - Valid Date and Time
-
-         Results: Receipt not appended to Receipt slice
-
+         Results: Receipt appended to Receipt slice
 
 
 Receipt Points Awarded - Test Cases:
